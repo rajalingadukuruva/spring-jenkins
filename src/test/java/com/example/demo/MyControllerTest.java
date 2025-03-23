@@ -22,7 +22,7 @@ public class MyControllerTest {
     public void testMessage() {
         String expected = "helloHai!!!!!!";  // Correct expected value
         
-        logger.info(";;;;;;;;;;;;;;;;;"+expected);
+        logger.info(";;;;;;;;;;;;;;;;;::::"+expected);
         String actual = myController.Message();
 
         assertEquals(expected, actual);  // This should pass now
