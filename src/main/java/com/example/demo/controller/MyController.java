@@ -15,8 +15,11 @@ public class MyController {
   	@GetMapping("/message")
 	public String Message() {
 		
+		logger.info("Message");
+		logger.info("Message");
+
 		
-		logger.info("Message  helloHaihelloHaihelloHai ");
+		logger.info("Message");
 		return "helloHai!!!!!!";
 	}
 }
