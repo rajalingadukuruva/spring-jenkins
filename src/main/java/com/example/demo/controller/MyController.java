@@ -16,7 +16,7 @@ public class MyController {
 	public String Message() {
 		
 		
-		logger.info("Message");
+		logger.info("Message  helloHaihelloHaihelloHai ");
 		return "helloHai!!!!!!";
 	}
 }
